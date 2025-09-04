@@ -1,17 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 body{
     background-color: #000000;
     color: #F6F6F6;
 }
 a{
     color: rgb(24, 16, 172);
-    text-decoration: none;}
-strong{
-    color: #22d4fd;
-}
-span{
-    color: #22d4fd;
-    border: 1px solid #22d4fd;
-    padding: 10px;
+    text-decoration: none;
 }
 img{
     width: 300px;
@@ -19,4 +19,8 @@ img{
     border: 5px solid #22d4fd;
     padding: 5px;
 }
-
+.tituloDestacado{
+    color: #22d4fd;
+    font-size: 30px;
+    text-align: center;
+}
