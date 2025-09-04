@@ -8,6 +8,8 @@
 body{
     background-color: #000000;
     color: #F6F6F6;
+    height: 100vh;
+    box-sizing: border-box;
 }
 a{
     color: rgb(24, 16, 172);
@@ -23,4 +25,10 @@ img{
     color: #22d4fd;
     font-size: 30px;
     text-align: center;
+}
+.contenedorPrincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
